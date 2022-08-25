@@ -6,8 +6,20 @@ body{
     background-color: #ffffff;
     color: #ffffff;
 }
-.containers{
-    
+h2{
+    font-family: 'Mate SC';font-size: 32px;
+}
+h3{
+    font-family: 'Margarine';font-size: 28px;
+}
+p{
+    font-family: 'Libre Caslon Display';font-size: 18px;
+}
+h5{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero1{
     padding-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -71,8 +83,6 @@ color: #ffffff;
     border: 1 solid rgb(60, 35, 35);
     
 }
-
-
 .service-head h2{
     font-family: 'Cherry Cream Soda';font-size: 35px;
     /* font-family: 'Alegreya Sans SC';font-size: 35px; */
@@ -81,8 +91,6 @@ color: #ffffff;
     color: #000000;
     padding: 1.5rem;
 }
-
-
 .service-head h5{
     font-family: 'sofia';
     color: #000000;
@@ -99,7 +107,8 @@ color: #ffffff;
     color: #ffffff;
 }
 #perso{
-     background-color: #000000 ; 
+    background: linear-gradient(to right top, #271820, #231921, #1f1922, #1b1a21, #191a1f, #181b20, #171d21, #161e22, #142125, #112427, #0e2728, #0c2a28);
+     /* background-color: #000000 ;  */
     color: #ffffff;
 }
 #ecom{
@@ -107,45 +116,37 @@ color: #ffffff;
     color: #ffffff;
 }
 #mobile{
-
-    background-color:  #000000;
+    background: linear-gradient(to right top, #271820, #231921, #1f1922, #1b1a21, #191a1f, #181b20, #171d21, #161e22, #142125, #112427, #0e2728, #0c2a28);
+    /* background-color:  #000000; */
     color: #ffffff;
 }
 .img{ 
-    /* width: 80vw; */
     height: 40vh; 
-    /* background-size: cover;
-    justify-content: end;
-    align-items: center; */
- 
+}
+.projects img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
 }
 a:hover{
     color: red;
-}
-.cta{
-    cursor: pointer;
-    box-sizing: border-box;
-    /* border: 0.1px solid black; */
-    padding: 1rem;
-    color: #ffffff;
 }
 .row{
     background-color: B2A4FF;
 }
 .card2{
-    background-color: #623027;
-    
+    background-color: #623027;   
 }
 .card{
-    /* background-color:; */
     /* background: linear-gradient(to right, #1F6CAB 100%, #9BC5C3 5%); */
-    /* background: linear-gradient(to right, #3b3a30 80%, #bdcebe 180%); */
     padding: 2rem;
     color: white;
-    /* border: 2px solid #1B1a17;  */
 }
+    
+
 .cards{
-   background-color:#1b1d1e ;
+    background: linear-gradient(to right top, #271820, #231921, #1f1922, #1b1a21, #191a1f, #181b20, #171d21, #161e22, #142125, #112427, #0e2728, #0c2a28);
+   /* background-color:#1b1d1e ; */
     border: 2px solid #000000;
     color: #ffffff;
     padding: 1rem;
@@ -163,33 +164,19 @@ a:hover{
      height: 30vh; 
   }
 .About{
-    /* font-family: 'Cherry Cream Soda';font-size: 35px; */
+    background: linear-gradient(to right top, #271820, #231921, #1f1922, #1b1a21, #191a1f, #181b20, #171d21, #161e22, #142125, #112427, #0e2728, #0c2a28);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-   background-color:#1b1d1e ;
+   /* background-color:#1b1d1e ; */
     color: #ffffff;
     text-align: center;
     padding: 4rem;
     word-spacing: 0.5rem;
 }
-h2{
-    font-family: 'Mate SC';font-size: 32px;
-    
-}
 
-
-h3{
-    font-family: 'Margarine';font-size: 28px;
-}
-p{
-    font-family: 'Libre Caslon Display';font-size: 18px;
-}
 .About h1{
     font-family: 'Cherry Cream Soda';font-size: 35px;
 }
-h5{
-    color: #ffffff;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 .contact{  
     font-family: 'Cherry Cream Soda';font-size: 35px;  
     padding: 5rem; 
@@ -197,12 +184,6 @@ h5{
     text-align: center; 
     /* border: 3px solid black; */
 }
-/* .container{ */
-    /* display: flex; */
-    /* flex-wrap: nowrap;
-     justify-content: center; 
-     align-items: center; */
-/* } */
 .icon{
     color: #ffffff;
     padding: 1rem;
@@ -215,16 +196,16 @@ h5{
     background: linear-gradient(to right top, #271820, #231921, #1f1922, #1b1a21, #191a1f, #181b20, #171d21, #161e22, #142125, #112427, #0e2728, #0c2a28);
     color: #ffffff;
     text-align: center;
-    
     height: 30vh;
 }
-
 .contact p{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.8rem;
     margin: 1rem;
     word-wrap: break-word;
-        }
+ }
+
+
   /* @media only screen and (max-width: 400px) {
     .contact p{
 font-size: 0.8rem;
