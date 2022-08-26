@@ -41,13 +41,13 @@ h5{
     font-family:'Times New Roman', Times, serif;
 }
 .navbar-brand:hover{
-    background-color: ;
+    background-color: #ffffff;
     color: #ffffff;
 }
 .nav-link{
-    
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 .nav-link:hover{
     color: #ffffff;
