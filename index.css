@@ -19,29 +19,30 @@ h5{
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
 }
-.hero1{
+
+
+#navigation{
+   background-color:#1b1d1e ;
+   color: #ffffff;
+}
+#home{
     padding-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-right: 2rem;
 }
-
-#navi{
-   background-color:#1b1d1e ;
-   color: #ffffff;
-
-}
 .container{
     padding: 0.5rem;
 }
 .navbar-brand{
-
+    background-color: #1b1b1b;
     color: #ffffff;
     font-size: 2rem;
     font-family:'Times New Roman', Times, serif;
 }
 .navbar-brand:hover{
-color: #ffffff;
+    background-color: ;
+    color: #ffffff;
 }
 .nav-link{
     
@@ -123,7 +124,7 @@ color: #ffffff;
 .img{ 
     height: 40vh; 
 }
-.projects img{
+#projects img{
     width: 100%;
     height: 50vh;
     object-fit: cover;

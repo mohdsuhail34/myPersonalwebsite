@@ -18,8 +18,8 @@
  </head>
 
 <body>
- <header id="navi" class="main-head">
-   <nav class="navbar navbar-expand-lg text-black ">
+ <header id="navigation" class="main-head">
+   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand " href="">MOHD SUHAIL</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,24 +31,26 @@
                     <!-- <ul class="nav" style="margin-left:auto"> -->
                 
                     <li class="nav-item">
-                         <a class="nav-link" href="">HOME</a>
+                      <a class="nav-link" href="#home">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">SERVICES</a>
+                         <a class="nav-link" href="#Services">SERVICES</a>
                    </li>
                    <li class="nav-item">
-                    <a class="nav-link" href="">PROJECT</a>
+                    <a class="nav-link" href="#projects">PROJECT</a>
                </li>
                <li class="nav-item">
-                <a class="nav-link" href="">ABOUT</a>
+                <a class="nav-link" href="#About">ABOUT</a>
                </li>
                <li class="nav-item">
-                <a class="nav-link" href="">CONTACT</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
                </li>
                </ul>
             
         </div>
     </nav>
+    
+<section id="home">
   <div class="row">
     <div id="pic" class="col-sm-6 col-md-6">
       <div id="photo" class="card" style="border: none;">
@@ -60,14 +62,15 @@
       <p class="welcome">WELCOME TO MY WEBSITE</p>
       <h2 class="mohd">Hello, I am Mohd Suhail </h2>
       <h2 class="mohd">currently lives in Bijnor</h2>
-      <p class="career">Computer science engeneer with excellent work and problem solving skills</p>
+      <p class="career">Computer science engineer with excellent work and problem solving skills</p>
      <button type="button" class="button btn btn-outline-light btn-sm">PORTFOLIO</button>
           </div>      
         </div>
       </div>
-    </header>
-
-  <section id="Services";">
+    </section>
+     </header> 
+  
+  <section id="Services";>
   <header class="service-head">
     <h2 style="color: #000000";>SER<span style="color: blue";>VI</span>CES</h2>
     <h5><span style="color: blue";>I</span> create beautiful and functional websites for small businesses. below area a few services i provide</h5>
@@ -78,7 +81,7 @@
           <img src="./image/icons8-business-man-in-blue-jacket-50.png" alt="" class="img-fluid">
         </div>
       <h3>BUSINESS</h3>
-        <p>Building Responsive and thoughtful sites for small ad large business that will give boost to your business .</p>
+        <p>Building Responsive and thoughtful sites for small and large business that will give boost to your business .</p>
     </div>
   </div>
 
@@ -92,7 +95,7 @@
    </div>
    </div>
 
-  <div class="col-md-6 col-lg-3">
+  <div class="col-md-6 col-lg-3 pb-3">
   <div id="ecom" class="card">
     <div class="icon">
       <img src="./image/icons8-shopping-cart-48.png" alt="">
@@ -113,7 +116,8 @@
   </div>
 </header>
 </section>
-  <section class="projects">
+<section id="projects">
+   <!-- <section class="projects">  -->
   <header class="project-head">
      <h1><span></span>RECENT <span style="color: blue";>PROJECT</span></h1>
          
@@ -172,22 +176,23 @@
           </div>
         </header>
       </section>
-
-      <div class="About">
+        <section id="About">
+        <div class="About">
          <div> 
           <h1>ABOUT <span style="color: blue";>ME</span></h1>
           <h5>WEB <span style="color: blue";>D</span>EVELOPER</h5>
           <p style=" font-family:'Times New Roman', Times, serif;;">Hello, I'm Suhail I'm Web Designer and Developer,life long learner, and ready for new opportunities. A bit about me, i love music, the arts, cricket and all the things creative. I love to develop cool websites and web applications.I started learning to code when i was 18 years old because i have always wanted to make my career in the field of web development/design. I believe in user centered design and delievering the best possible experiances to people,I am good with Html css, Bootstrap,JavaScript,JQuery.</p>
           <p class="lead">
           <!-- <div class="d-grid gap-2 col-6 mx-auto"> -->
-            <a href="https://nameless-plateau-58544.herokuapp.com/" type="button" class="btn btn-outline-primary">DOWNLOAD RESUME</a>
+            <a href="./image/resume.jpeg" type="button" class="btn btn-outline-primary">DOWNLOAD RESUME</a>
           
             <!-- <button class="btn btn-light btn-sm" type="button"<a href="./laptop.jpg">DOWNLOAD RESUME</a></button> -->
           <!-- </div> -->
           </p>
         </div> 
       </div>
-      
+    </section>
+    <section id="contact">
       <section class="contact">
         <h2 style="color: #000000;">CONTACT <span style="color: blue";>US</span></h2>
         <div class="row my-5">
@@ -218,7 +223,7 @@
       </div> 
     </div>
       </section>
-       <footer>
+       <footer >
         <div class="foot">
           <h2>SUHAIL</h2>
           <h6>web solution</h6>
