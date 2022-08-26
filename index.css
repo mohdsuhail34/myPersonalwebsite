@@ -40,8 +40,9 @@ h5{
     font-size: 2rem;
     font-family:'Times New Roman', Times, serif;
 }
-.navbar-brand:hover{
-    background-color: #ffffff;
+.navbar-brand:hover
+{
+    background-color: #1b1b1b;
     color: #ffffff;
 }
 .nav-link{
@@ -57,7 +58,7 @@ h5{
     color: #ffffff;
 }
 .nav-link::after{
-    color: #1b1d1e;
+    color: #ffffff;
 }
 #photo{
     background-color:#1b1d1e;
